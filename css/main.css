@@ -110,7 +110,7 @@ body {
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+  font-weight: 600;
   display: flex;
   justify-content: space-between;
 }
@@ -119,16 +119,28 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1.1em;
+  height: 180px;
   width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.div-2 {
+    border-left: 0.15em solid #4F3E49;
+    padding: 0em 2em;
+    border-right: 0.15em solid #4F3E49;
+    padding: 0em 2em;
+}
 
+.div-1, .div-3 {
+    padding: 0em 2em;
+}
+
+p {
+    color: #BD0466;
+}
 
 
 /* ==========================================================================
